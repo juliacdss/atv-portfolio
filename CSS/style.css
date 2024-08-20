@@ -25,6 +25,10 @@
         color: #21243D; /*cor da pàgina*/
     }
 
+    main {
+        margin: 0 20vw 0 20vw;
+    }
+
     /*  ==============
     formatação do topo da página
     ==============*/
@@ -46,13 +50,9 @@
     } 
 
     /*  ==============
-    formatação de conteúdo
+    formatação works
     ==============*/
     
-    main.works {
-        margin: 0 30vw 0 30vw;
-    }
-
     main.works h1 {
         font-weight: normal; /*negrito da fonte*/
         margin: 0 0 0 0; /*espaçamento do título*/
@@ -80,6 +80,60 @@
     }
 
     /*  ==============
+    formatação home page
+    ==============*/
+
+    section.banner {
+        display: flex; /*deixa os elementos lado a lado, na mesma linha*/
+        margin: 6vw 0 3vw 0;
+    }
+
+    section.banner h1 {
+        font-size: 2rem;
+    }
+
+    section.banner p {
+        margin: 2vw 3vw 2vw 0;
+        font-size: x-large;
+    }
+
+    section.banner button {
+        background-color: #ff6464;
+        color: white;
+        font-size: 1rem;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2px; /*formato da borda*/
+    }
+
+    section.posts {
+        background-color: #edf7fa;
+        padding: 2vw 5px 2vw 5px;
+    }
+    
+    section.posts h2 {
+        font-weight: normal;
+        margin: 0 0 2vw 0;
+    }
+
+    section.posts ul {
+        display: flex;
+    }
+
+    section.posts ul li {
+        background-color: white;
+        padding: 1.5vw 10px 15px 10px;
+        margin: 0 2vw 0 0;
+    }
+
+    section.posts ul li:last-child{
+        margin: 0;
+    }
+
+    section.posts ul li p {
+        margin: 1.5vw 0 1.5vw 0;
+    }
+
+    /*  ==============
     formatação do rodapé
     ==============*/
 
@@ -101,3 +155,5 @@
     footer nav ul li a span {
         color: #ff6464; /*cor dos ícones*/
     }
+
+
