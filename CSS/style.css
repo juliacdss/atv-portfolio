@@ -133,6 +133,47 @@
         margin: 1.5vw 0 1.5vw 0;
     }
 
+    section.ftworks h2 {
+        font-size: 2rem;
+        font-weight: 100;
+        margin: 2.5vw 0 1vw 0 ;
+        }
+
+    section.ftworks > /*maior filha div, primeira div*/ div {
+            display: flex;
+        }
+
+        section.ftworks div {
+            padding: 1.5vw 10px 15px 10px;
+            margin: 0 2vw 0 0;
+        }
+
+        section.ftworks div h3 {
+            padding: 1vw 0 15px 0;
+            margin: 0 2vw 0 0;
+            color: #21243D;
+            font-weight: bold;
+        }
+
+    section.ftworks div p span {
+        color: white; /*cor da fonte*/
+        background-color: #142850; /*cor do fundo*/
+        border-radius: 35px; /*borda redonda*/
+        padding: 2px 7px 2px 7px; /*espaçamento da borda*/
+        font-weight: bold; /*negrito*/
+        margin: 0 23px 0 0;
+    }
+
+    p.dashboard {
+        padding: 1vw 0 15px 0;
+        color: lightslategray;
+    }
+
+    p.illustration {
+        padding: 1vw 0 15px 0;
+        color: lightslategray;
+    }
+
     /*  ==============
     formatação do rodapé
     ==============*/
@@ -153,7 +194,9 @@
     }
 
     footer nav ul li a span {
-        color: #ff6464; /*cor dos ícones*/
+        color: dark; /*cor dos ícones*/
+        padding: 10px ;
     }
 
+    
 
